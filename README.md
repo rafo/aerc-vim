@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to our repository where we enhance the Aerc email client experience with intuitive Vim-like keybindings! Aerc is an exceptional terminal-based email client known for its efficiency and simplicity. However, we noticed a missed opportunity in its default setup – the lack of Vim-standard keybindings, which are beloved by many for their speed and convenience.
+Welcome to my little repository where I try to enhance the Aerc email client experience with intuitive Vim-like keybindings! Aerc is an exceptional terminal-based email client known for its efficiency and simplicity. However, we noticed a missed opportunity in its default setup – the lack of Vim-standard keybindings, which are beloved by many for their speed and convenience.
 
 ## About This Repository
 
