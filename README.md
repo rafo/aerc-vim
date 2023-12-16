@@ -25,10 +25,5 @@ Your input is invaluable! We strongly encourage you to report any bugs you encou
 ## More about Aerc
 
 - [Aerc Website](https://aerc-mail.org/)
-- [Aerc Documentation](https://aerc-mail.org/docs/)
-- [Aerc Wiki](https://git.sr.ht/~sircmpwn/aerc/)
-- [Aerc FAQ](https://aerc-mail.org/faq/)
-- [Aerc IRC Channel](https://webchat.freenode.net/#aerc)
-- [Aerc Mailing List](https://lists.sr.ht/~sircmpwn/aerc)
-- [Aerc Subreddit](https://www.reddit.com/r/aerc/)
-- Aerc GitHub Repository is just a mirror
+- [Aerc Wiki](https://sr.ht/~rjarry/aerc/)
+- [Aerc Mailing List](https://lists.sr.ht/~rjarry/aerc-discuss)
