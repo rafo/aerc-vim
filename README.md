@@ -27,3 +27,4 @@ Your input is invaluable! We strongly encourage you to report any bugs you encou
 - [Aerc Website](https://aerc-mail.org/)
 - [Aerc Wiki](https://sr.ht/~rjarry/aerc/)
 - [Aerc Mailing List](https://lists.sr.ht/~rjarry/aerc-discuss)
+- [AERC and Why Text-Only Email Clients Are the Future](https://retrocode.uk/posts/aerc-fast-linux-email-client/)
