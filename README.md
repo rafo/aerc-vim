@@ -31,9 +31,9 @@ Aerc-vim is dedicated to bridging that gap by introducing a set of Vim-like keyb
 - [Code review at the speed of email](https://drewdevault.com/2022/07/25/Code-review-with-aerc.html)
 
 ### Aerc on hacker news
-[Aerc : A well-crafted TUI for email](https://news.ycombinator.com/item?id=41321981)
-[Aerc – a pretty good (terminal) email client](https://news.ycombinator.com/item?id=33166054)
-[Aerc – An email client that runs in the terminal](https://news.ycombinator.com/item?id=20090950)
+- [Aerc : A well-crafted TUI for email](https://news.ycombinator.com/item?id=41321981)
+- [Aerc – a pretty good (terminal) email client](https://news.ycombinator.com/item?id=33166054)
+- [Aerc – An email client that runs in the terminal](https://news.ycombinator.com/item?id=20090950)
 
 ### Official Aerc Documentation
 - [Aerc Website](https://aerc-mail.org/)
