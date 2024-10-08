@@ -1,8 +1,22 @@
-# Vim-Like Keybindings for Aerc
+# Aerc-vim: Vim-Like Keybindings for Aerc
 
 ## Introduction
 
 Welcome to my little repository where I try to enhance the [Aerc](https://aerc-mail.org/) email client experience with intuitive Vim-like keybindings! Aerc is an exceptional terminal-based email client known for its efficiency and simplicity. However, I think the developers missed an opportunity in its default setup – the lack of Vim-standard keybindings, which are beloved by many for their speed and convenience.
+
+## Quick Start & Concept
+
+Jeder der sich mit vim auskennt, weiß, wie effizient die Tastaturkürzel zur Bearbeitung von Texten sind. Meine Idee für Aerc-vim ist nicht nur möglichst viele Tastaturkürzel aus vim auf Aerc zu übertragen, sondern Aerc wie den Textbuffer von vim zu behandeln. Das bedeutet, dass nicht nur Emails mit vim geschrieben werden, sondern das auch das navigieren, finden, löschen, verschieben, markieren usw. von Emails mit vim-Kürzeln möglich ist.
+
+Dazu ist es nötig, ein klein wenig umzudenken. Ähnlich wie bei [oil](https://github.com/stevearc/oil.nvim) "You want to be able to edit your filesystem like a buffer" oder [mini.files](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-files.md) "Manipulate files and directories by editing text buffers: create, delete, copy, rename, move.", in denen das Dateisytem als Textbuffer dargestellt wird, wird in Aerc-vim das Email-Postfach als Textbuffer dargestellt.
+
+
+
+Ein paar Beispiele:
+
+- **o** steht in Vim für "open a new line below the cursor and start insert mode". In Aerc-vim wird damit eine neue Email erstellt. Warum? Weil ich auf einen Textbuffer – jede Zeile eine Email – schaue und eine neue Email schreiben will. Ich will also eine neue ~Zeile~ Email unterhalb der aktuellen ~Zeile~ Email öffnen und mit dem Schreiben beginnen. In Aerc ist das "o" für "open a new email" und nicht für "open a new line". Eine neue Email in Aerc wäre normalerweise "n" für "new email". Siehe [Aerc Default Keybindings](https://git.sr.ht/~rjarry/aerc/tree/master/item/config/binds.conf)
+- **dd** steht in Vim für "delete the current line". In Aerc-vim wird damit die markierte(n) Email(s) gelöscht. Warum? Weil ich auf einen Textbuffer voller ~Zeilen~ Emails schaue und eine ~Zeile~ Email löschen will.
+- 
 
 ## Current Status
 
