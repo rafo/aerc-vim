@@ -6,17 +6,14 @@ Welcome to my little repository where I try to enhance the [Aerc](https://aerc-m
 
 ## Quick Start & Concept
 
-Jeder der sich mit vim auskennt, weiß, wie effizient die Tastaturkürzel zur Bearbeitung von Texten sind. Meine Idee für Aerc-vim ist nicht nur möglichst viele Tastaturkürzel aus vim auf Aerc zu übertragen, sondern Aerc wie den Textbuffer von vim zu behandeln. Das bedeutet, dass nicht nur Emails mit vim geschrieben werden, sondern das auch das navigieren, finden, löschen, verschieben, markieren usw. von Emails mit vim-Kürzeln möglich ist.
+Anyone familiar with Vim knows how efficient its keyboard shortcuts are for editing text. My idea for Aerc-vim is not only to transfer as many Vim keybindings as possible to Aerc, but to treat Aerc like a Vim text buffer. This means that not only are emails written with Vim, but navigating, finding, deleting, moving, marking emails, etc. is also possible using Vim shortcuts.
 
-Dazu ist es nötig, ein klein wenig umzudenken. Ähnlich wie bei [oil](https://github.com/stevearc/oil.nvim) "You want to be able to edit your filesystem like a buffer" oder [mini.files](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-files.md) "Manipulate files and directories by editing text buffers: create, delete, copy, rename, move.", in denen das Dateisytem als Textbuffer dargestellt wird, wird in Aerc-vim das Email-Postfach als Textbuffer dargestellt.
+This requires a slight shift in thinking. Similar to [oil](https://github.com/stevearc/oil.nvim) — "You want to be able to edit your filesystem like a buffer" — or [mini.files](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-files.md) — "Manipulate files and directories by editing text buffers: create, delete, copy, rename, move." — where the filesystem is represented as a text buffer, in Aerc-vim the email mailbox is represented as a text buffer.
 
+A few examples:
 
-
-Ein paar Beispiele:
-
-- **o** steht in Vim für "open a new line below the cursor and start insert mode". In Aerc-vim wird damit eine neue Email erstellt. Warum? Weil ich auf einen Textbuffer – jede Zeile eine Email – schaue und eine neue Email schreiben will. Ich will also eine neue ~Zeile~ Email unterhalb der aktuellen ~Zeile~ Email öffnen und mit dem Schreiben beginnen. In Aerc ist das "o" für "open a new email" und nicht für "open a new line". Eine neue Email in Aerc wäre normalerweise "n" für "new email". Siehe [Aerc Default Keybindings](https://git.sr.ht/~rjarry/aerc/tree/master/item/config/binds.conf)
-- **dd** steht in Vim für "delete the current line". In Aerc-vim wird damit die markierte(n) Email(s) gelöscht. Warum? Weil ich auf einen Textbuffer voller ~Zeilen~ Emails schaue und eine ~Zeile~ Email löschen will.
-- 
+- **o** in Vim stands for "open a new line below the cursor and start insert mode". In Aerc-vim, this creates a new email. Why? Because I'm looking at a text buffer – each line being an email – and I want to write a new email. So I want to open a new ~~line~~ email below the current ~~line~~ email and start writing. In Aerc, "o" stands for "open a new email" and not "open a new line". A new email in Aerc would normally be "n" for "new email". See [Aerc Default Keybindings](https://git.sr.ht/~rjarry/aerc/tree/master/item/config/binds.conf)
+- **dd** in Vim stands for "delete the current line". In Aerc-vim, this deletes the selected email(s). Why? Because I'm looking at a text buffer full of ~~lines~~ emails and I want to delete a ~~line~~ email.
 
 ## Current Status
 
